@@ -1,0 +1,48 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 1px solid red;
+  /* overflow: hidden; */
+  /* background-color: red; */
+}
+
+.navigation {
+  position: absolute;
+  width: 10%;
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+  z-index: 1;
+}
+
+#left {
+  left: 0%;
+}
+
+#right {
+  right: 0%;
+}
+
+.slide {
+  height: 500px;
+  width: 500px;
+  display: block;
+}
+
+.hide {
+  display: none;
+}
